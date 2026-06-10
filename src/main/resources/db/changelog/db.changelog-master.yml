@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/migrations/db.changelog-001-create-boards.sql
+  - include:
+      file: db/changelog/migrations/db.changelog-002-create-board-columns.sql
+  - include:
+      file: db/changelog/migrations/db.changelog-003-create-cards.sql
+  - include:
+      file: db/changelog/migrations/db.changelog-004-create-blocks.sql
+  - include:
+      file: db/changelog/migrations/db.changelog-005-add-indexes.sql
