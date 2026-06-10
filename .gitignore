@@ -1,0 +1,62 @@
+# Build
+.gradle/
+build/
+out/
+bin/
+target/
+gradle-*/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+db.lock
+database.properties
+
+# Application
+.board-data/
+*.log
+*.class
+
+# Environment
+.env
+.env.local
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Generated binaries
+*.jar
+*.war
+*.nar
+*.ear
+
+!gradlew
+!gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
